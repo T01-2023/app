@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+     display: none !important;
+}
+
+/* Body */
+body {
+     letter-spacing: 0.025em !important;
+}
+/* Scroll Bar */
+::-webkit-scrollbar {
+     width: 4px;
+ }
+ ::-webkit-scrollbar-track {
+     background: #f1f1f1;
+ }
+ ::-webkit-scrollbar-thumb {
+     background: #64748B;
+     border-radius: 5px;
+ }
+ ::-webkit-scrollbar-thumb:hover {
+     background: #64748B;
+ }
